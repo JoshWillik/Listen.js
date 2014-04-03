@@ -45,9 +45,11 @@ function Listener( message, handler ){
     },
     ignore: function(){
       document.removeEventListener( 'keyup', spy.listener );
+      return spy;
     },
     listen: function(){
       document.addEventListener( 'keyup', spy.listener );
+      return spy;
     }
   };
   return spy;
