@@ -14,6 +14,8 @@
  *
  * Limits:
  * Will not listen for messages longer than 50 characters
+ * 
+ * Secret code method courtesy of Steve Parker
  */
 
 function Listener( message, handler ){
